@@ -8,10 +8,33 @@
     "dev": "concurrently \"npm run dev --prefix backend\" \"npm start --prefix frontend\""
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.21",
     "chai": "^5.1.2",
     "concurrently": "^7.0.0",
-    "mocha": "^11.0.1"
+    "mocha": "^11.0.1",
+    "nodemon": "^3.1.10",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12"
   },
   "author": "Task Manager Team",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "epub-parser": "^0.2.5",
+    "epub.js": "^0.2.15",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.1",
+    "multer": "^2.0.2",
+    "pdf-parse": "^1.1.1",
+    "react-pdf": "^10.1.0",
+    "react-router-dom": "^7.8.1"
+  }
 }
